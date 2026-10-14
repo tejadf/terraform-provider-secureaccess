@@ -314,6 +314,7 @@ func (p *SecureAccessProvider) DataSources(ctx context.Context) []func() datasou
 		NewNetworkObjectGroupDataSource,
 		NewNetworkTunnelGroupDataSource,
 		NewPrivateResourceDataSource,
+		NewRegionsDataSource,
 		NewResourceConnectorDataSource,
 		NewResourceConnectorGroupDataSource,
 		NewSiteDataSource,
