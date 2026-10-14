@@ -1,0 +1,5 @@
+bin/
+tf/dev.tfrc
+tf/.terraform/
+tf/.terraform.lock.hcl
+tf/terraform.tfstate*
